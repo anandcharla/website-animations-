@@ -1,0 +1,21 @@
+
+
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  margin: 0; }
+
+body {
+  overflow-y: scroll;
+  font-family: "Noto Sans";
+  background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
+  -webkit-transition: background-position 0.7s;
+  transition: background-position 192.7s;
+  }
+  body.page-open {
+    background-position: 0 100%; }
